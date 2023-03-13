@@ -44,7 +44,7 @@ class _AddUserState extends State<AddUser> {
                 );
                 ScaffoldMessenger.of(context).showSnackBar(snackBar);
               },
-              child: const Text("Add"),
+              child: const Text("Add User"),
             ),
             const Padding(
               padding: EdgeInsets.all(10.0),
